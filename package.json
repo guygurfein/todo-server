@@ -4,7 +4,8 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "dev": "nodemon -r dotenv/config ./server/api.mjs"
+    "dev": "nodemon -r dotenv/config ./server/api.mjs",
+    "start": "node -r dotenv/config ./server/api.mjs"
   },
   "keywords": [],
   "author": "Yariv Gilad <yariv.gilad@gmail.com>",
